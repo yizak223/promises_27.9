@@ -7,7 +7,7 @@ const fetchWheather=(City)=>{
             mainDiv.innerHTML=`<h1>the city: ${data.name}</h1>
             <p>the temp is: ${data.main.temp}</p>`
         })
-        .catch(eror=>{console.log(error)})
+        .catch(error=>{console.log(error)})
 }
 
 userCity.addEventListener('change',()=>{
